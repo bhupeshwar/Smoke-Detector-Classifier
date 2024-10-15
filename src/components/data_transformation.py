@@ -10,6 +10,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import IsolationForest
 from sklearn.utils.class_weight import compute_class_weight
 
+
+# Add the project's root directory to sys.path
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import df_to_csv, handling_multicollinearity, handling_outliers, feature_scaling

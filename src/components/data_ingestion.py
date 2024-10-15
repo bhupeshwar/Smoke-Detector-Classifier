@@ -1,6 +1,12 @@
 import os
 import sys
 import pandas as pd
+
+
+# Add the project's root directory to sys.path
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 from src.exception import CustomException
 from src.logger import logging
 from src.components.data_transformation import DataTransformation
