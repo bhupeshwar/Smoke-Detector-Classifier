@@ -26,6 +26,17 @@ Multiple classification algorithms were trained and evaluated, including Decisio
   
 All models performed exceptionally well, with Random Forest, XGBoost, CatBoost, and AdaBoost achieving perfect scores in most cases (with no sign of overfitting), demonstrating their robustness and reliability.
 
+## Project Output
+
+![image](https://github.com/user-attachments/assets/809e9e85-99fe-4c67-9df2-a1c6efcf822a)
+
+![image](https://github.com/user-attachments/assets/9c48a883-4589-4c1b-886c-b8102ca5c8a5)
+
+![image](https://github.com/user-attachments/assets/2f00c52f-f010-4b13-ba52-ec804f029e25)
+
+
+
+
 ## Business Impact
 
 This project has significant potential for industry application, offering several benefits:
