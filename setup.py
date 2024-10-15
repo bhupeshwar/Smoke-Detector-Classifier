@@ -19,9 +19,9 @@ def get_requirements(file_path):
 
 # Metadata of the application
 setup(
-    name='End-to-End-Smoke-Detector-Classification',
+    name='Smoke-Detector-Classifier',
     version='0.0.1',
-    author='Bhupeshwar Pathania',
+    author='bhupeshwar',
     author_email='bhupeshwar.singh.pathania@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
